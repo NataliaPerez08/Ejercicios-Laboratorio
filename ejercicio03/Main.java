@@ -16,7 +16,7 @@ public class Main{
 	 * del numero con una variable occ, si occ == v regresar i
 	 * (que es el iterador en el ciclo for usado para recorrer el arreglo)+1 porque
 	 * se cuenta a partir de 1
-	 * Si nunca pasa occ==el método regresa 0
+	 * Si nunca pasa occ==v método regresa 0
 	 * */
 	public static int returnLocation(int k,int v){
 		int occ=0;
@@ -44,7 +44,7 @@ public class Main{
 			int k = scan.nextInt();
 			int v = scan.nextInt();
 			int result = returnLocation(k,v);
-			System.out.print(result);
+			System.out.println(result);
 		}
 		scan.close();
 	}
